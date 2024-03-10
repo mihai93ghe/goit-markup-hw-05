@@ -65,8 +65,12 @@
 }
 
 .menu-items > li > a::after {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--brand-color);
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
 }
+
 .menu-items {
   display: flex;
   flex-direction: row;
